@@ -3,9 +3,7 @@ import urllib
 
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
-from Image import Image
-
-DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+from models import Product
 
 
 class ManufacturerGanter:
@@ -19,7 +17,7 @@ class ManufacturerGanter:
             print('Log: Filtering all results...')
             link = r.find_element(By.TAG_NAME, 'a').get_attribute('href')
             title = r.find_element(By.TAG_NAME, 'h5').text
-            img = Image(title, link)
+            img = Product(title, link)
             if not img.is_already_saved(filtered_results):
                 filtered_results.append(img)
 
@@ -37,7 +35,7 @@ class ManufacturerKipp:
             print('Log: Filtering all results...')
             link = r.find_element(By.TAG_NAME, 'a').get_attribute('href')
             title = r.find_element(By.TAG_NAME, 'p').text
-            img = Image(title, link)
+            img = Product(title, link)
             if not img.is_already_saved(filtered_results):
                 filtered_results.append(img)
 

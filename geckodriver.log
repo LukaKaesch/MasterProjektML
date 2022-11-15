@@ -3891,7 +3891,9 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript error: , line 0: uncaught exception: Timeout (f)
 JavaScript error: , line 0: uncaught exception: Timeout (f)
 JavaScript error: , line 0: uncaught exception: Timeout (j)
-gram Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileiITWRl"
+1668271360876	Marionette	INFO	Stopped listening on port 57452
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ocal\\Temp\\rust_mozprofileiITWRl"
 1668270537763	Marionette	INFO	Marionette enabled
 1668270537766	Marionette	INFO	Listening on port 57544
 Read port: 57544
@@ -3922,3 +3924,1599 @@ JavaScript error: , line 0: uncaught exception: Timeout (f)
 JavaScript error: , line 0: uncaught exception: Timeout (j)
 1668270775723	Marionette	INFO	Stopped listening on port 57641
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668455811942	geckodriver	INFO	Listening on 127.0.0.1:56335
+1668455815036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56336" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilelHSUlh"
+1668455815498	Marionette	INFO	Marionette enabled
+1668455815503	Marionette	INFO	Listening on port 56347
+Read port: 56347
+WebDriver BiDi listening on ws://127.0.0.1:56336
+1668455815655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilelHSUlh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56336/devtools/browser/73813035-3884-4856-a8b9-be0461dec69f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668455826510	Marionette	INFO	Stopped listening on port 56347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668457151782	geckodriver	INFO	Listening on 127.0.0.1:65039
+1668457154849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileAQ97Sy"
+1668457155108	Marionette	INFO	Marionette enabled
+1668457155111	Marionette	INFO	Listening on port 65051
+Read port: 65051
+WebDriver BiDi listening on ws://127.0.0.1:65040
+1668457155229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileAQ97Sy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65040/devtools/browser/6de651a8-4b0e-452e-a196-6d13fa43c5c9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1056: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668457329664	Marionette	INFO	Stopped listening on port 65051
+1668457331315	geckodriver	INFO	Listening on 127.0.0.1:65252
+1668457334383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMqNCn3"
+1668457334633	Marionette	INFO	Marionette enabled
+1668457334636	Marionette	INFO	Listening on port 65263
+WebDriver BiDi listening on ws://127.0.0.1:65253
+Read port: 65263
+1668457334850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMqNCn3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65253/devtools/browser/015849cb-890f-456f-aa70-158646b6a4cd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668457361759	Marionette	INFO	Stopped listening on port 65263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668457363707	geckodriver	INFO	Listening on 127.0.0.1:65369
+1668457366782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65370" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileeDVHNz"
+1668457367028	Marionette	INFO	Marionette enabled
+1668457367035	Marionette	INFO	Listening on port 65382
+WebDriver BiDi listening on ws://127.0.0.1:65370
+Read port: 65382
+1668457367160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileeDVHNz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65370/devtools/browser/f21a93d6-acfb-44d1-bdbf-717df8c92792
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-jl6pdh9lue09" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668457462945	Marionette	INFO	Stopped listening on port 65382
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668457466371	geckodriver	INFO	Listening on 127.0.0.1:65518
+1668457469415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileGKmuJJ"
+1668457469669	Marionette	INFO	Marionette enabled
+1668457469673	Marionette	INFO	Listening on port 65530
+Read port: 65530
+WebDriver BiDi listening on ws://127.0.0.1:65519
+1668457469794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileGKmuJJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65519/devtools/browser/09822f7a-84c0-4d8d-9004-8211d20ed998
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668457476266	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668457512870	geckodriver	INFO	Listening on 127.0.0.1:49244
+1668457515964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile4FVFFN"
+1668457516214	Marionette	INFO	Marionette enabled
+1668457516218	Marionette	INFO	Listening on port 49256
+WebDriver BiDi listening on ws://127.0.0.1:49245
+Read port: 49256
+1668457516397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile4FVFFN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49245/devtools/browser/1dd76797-239f-471f-a058-1b300ccd8bfb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668457536492	Marionette	INFO	Stopped listening on port 49256
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 5960, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668457538602	geckodriver	INFO	Listening on 127.0.0.1:49361
+1668457541691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49362" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilevicJwy"
+1668457541949	Marionette	INFO	Marionette enabled
+1668457541953	Marionette	INFO	Listening on port 49372
+Read port: 49372
+WebDriver BiDi listening on ws://127.0.0.1:49362
+1668457542058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilevicJwy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49362/devtools/browser/d2282aeb-5959-4943-9ae3-98594ea08b22
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-ld8arsuby4kh" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668457647916	Marionette	INFO	Stopped listening on port 49372
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668457650644	geckodriver	INFO	Listening on 127.0.0.1:49776
+1668457653733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileImU0Kz"
+1668457653983	Marionette	INFO	Marionette enabled
+1668457653987	Marionette	INFO	Listening on port 49787
+WebDriver BiDi listening on ws://127.0.0.1:49777
+Read port: 49787
+1668457654108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileImU0Kz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49777/devtools/browser/20962a88-553c-4193-83fd-ceafdedf7906
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668457780734	Marionette	INFO	Stopped listening on port 49787
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 17420, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668458368705	geckodriver	INFO	Listening on 127.0.0.1:50736
+1668458371785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50737" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8A8fBN"
+1668458372037	Marionette	INFO	Marionette enabled
+1668458372040	Marionette	INFO	Listening on port 50747
+WebDriver BiDi listening on ws://127.0.0.1:50737
+Read port: 50747
+1668458372227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8A8fBN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50737/devtools/browser/3fc785a4-f7cd-4b75-9a1f-6325d0561c1c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668458415778	Marionette	INFO	Stopped listening on port 50747
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50849" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilebMgxos"
+1668458416619	Marionette	INFO	Marionette enabled
+1668458416630	Marionette	INFO	Listening on port 50863
+Read port: 50863
+WebDriver BiDi listening on ws://127.0.0.1:50849
+1668458416754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilebMgxos\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50849/devtools/browser/6b690a06-2c50-4687-bae9-8e3e8be88e2b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668458427866	Marionette	INFO	Stopped listening on port 50863
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668458429867	geckodriver	INFO	Listening on 127.0.0.1:50959
+1668458432956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5sZcHK"
+1668458433221	Marionette	INFO	Marionette enabled
+1668458433224	Marionette	INFO	Listening on port 50971
+Read port: 50971
+WebDriver BiDi listening on ws://127.0.0.1:50960
+1668458433327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5sZcHK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50960/devtools/browser/2e937b7c-c94b-45e0-9ff4-cf49517d6d86
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1668458446774	Marionette	INFO	Stopped listening on port 50971
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668458652319	geckodriver	INFO	Listening on 127.0.0.1:50481
+1668458655370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50482" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMpHXFN"
+1668458655648	Marionette	INFO	Marionette enabled
+1668458655651	Marionette	INFO	Listening on port 50494
+Read port: 50494
+WebDriver BiDi listening on ws://127.0.0.1:50482
+1668458655761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMpHXFN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50482/devtools/browser/d4423da0-0c9f-406f-b511-96b6f4aead7d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668458724595	Marionette	INFO	Stopped listening on port 50494
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668508893025	geckodriver	INFO	Listening on 127.0.0.1:52022
+1668508896100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilelmsSDn"
+1668508896397	Marionette	INFO	Marionette enabled
+1668508896401	Marionette	INFO	Listening on port 52035
+Read port: 52035
+WebDriver BiDi listening on ws://127.0.0.1:52023
+1668508896515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilelmsSDn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52023/devtools/browser/9b94cb84-9e04-4c11-8b6a-adbf24c1d86f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668508905373	Marionette	INFO	Stopped listening on port 52035
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668509464878	geckodriver	INFO	Listening on 127.0.0.1:52407
+1668509471822	geckodriver	INFO	Listening on 127.0.0.1:52418
+1668509474925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilesafhSh"
+1668509475200	Marionette	INFO	Marionette enabled
+1668509475204	Marionette	INFO	Listening on port 52430
+Read port: 52430
+WebDriver BiDi listening on ws://127.0.0.1:52419
+1668509475320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilesafhSh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52419/devtools/browser/f0171a90-4b53-4801-aed7-016b3b3860e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+1668509521505	Marionette	INFO	Stopped listening on port 52430
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668509524656	geckodriver	INFO	Listening on 127.0.0.1:52535
+1668509527739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52536" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileP19XvD"
+1668509528018	Marionette	INFO	Marionette enabled
+1668509528021	Marionette	INFO	Listening on port 52547
+Read port: 52547
+WebDriver BiDi listening on ws://127.0.0.1:52536
+1668509528123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileP19XvD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52536/devtools/browser/2af2677e-7e5e-405f-b09a-1ba3a367a37c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668510112276	Marionette	INFO	Stopped listening on port 52547
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+NFO	Marionette enabled
+1668509560590	Marionette	INFO	Listening on port 52645
+Read port: 52645
+WebDriver BiDi listening on ws://127.0.0.1:52635
+1668509560702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileztpEkD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52635/devtools/browser/e658838c-29e1-41fa-b2d9-2b5a06bb1cba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668510113350	Marionette	INFO	Stopped listening on port 52645
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiledwZ9zb"
+1668510006828	Marionette	INFO	Marionette enabled
+1668510006831	Marionette	INFO	Listening on port 52979
+Read port: 52979
+WebDriver BiDi listening on ws://127.0.0.1:52969
+1668510006942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiledwZ9zb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52969/devtools/browser/5c22d0b7-9da1-47ec-8d55-2856e83b11fb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-ysa36lrfuckk" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668510078657	Marionette	INFO	Stopped listening on port 52979
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668510084006	geckodriver	INFO	Listening on 127.0.0.1:53113
+1668510087051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileSzxyIh"
+1668510087321	Marionette	INFO	Marionette enabled
+1668510087325	Marionette	INFO	Listening on port 53124
+Read port: 53124
+WebDriver BiDi listening on ws://127.0.0.1:53114
+1668510087435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileSzxyIh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53114/devtools/browser/ee1b84b1-cffd-4c76-9fb8-f8fabb75baca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668510109384	Marionette	INFO	Stopped listening on port 53124
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668510115382	geckodriver	INFO	Listening on 127.0.0.1:53231
+1668510118434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilekPIkte"
+1668510118710	Marionette	INFO	Marionette enabled
+1668510118714	Marionette	INFO	Listening on port 53242
+Read port: 53242
+WebDriver BiDi listening on ws://127.0.0.1:53232
+1668510118821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilekPIkte\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53232/devtools/browser/1793fa3c-a3d8-46f3-996a-445d9a5c1903
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668511705761	Marionette	INFO	Stopped listening on port 53242
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilefjINoe"
+1668511693165	Marionette	INFO	Marionette enabled
+1668511693169	Marionette	INFO	Listening on port 54110
+WebDriver BiDi listening on ws://127.0.0.1:54099
+Read port: 54110
+1668511693350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilefjINoe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54099/devtools/browser/ea9b1f1a-6811-4672-bf1f-8b6ddca26236
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668511703373	Marionette	INFO	Stopped listening on port 54110
+1668511707758	geckodriver	INFO	Listening on 127.0.0.1:54210
+1668511710830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileONiqaH"
+1668511711082	Marionette	INFO	Marionette enabled
+1668511711085	Marionette	INFO	Listening on port 54221
+WebDriver BiDi listening on ws://127.0.0.1:54211
+Read port: 54221
+1668511711271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileONiqaH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54211/devtools/browser/87e4b0cb-a747-4bb7-bc5a-c93c74a5a8bb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668511871318	Marionette	INFO	Stopped listening on port 54221
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668511891865	geckodriver	INFO	Listening on 127.0.0.1:54392
+1668511894938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile0TdM0g"
+1668511895245	Marionette	INFO	Marionette enabled
+1668511895248	Marionette	INFO	Listening on port 54404
+Read port: 54404
+WebDriver BiDi listening on ws://127.0.0.1:54393
+1668511895355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile0TdM0g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54393/devtools/browser/784b62dc-2310-4da4-a90c-363022cb47bc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-wm47xtj7h80b" on cross-origin object
+1668511920112	Marionette	INFO	Stopped listening on port 54404
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668512974116	geckodriver	INFO	Listening on 127.0.0.1:55005
+1668512977168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileLsblmD"
+1668512977460	Marionette	INFO	Marionette enabled
+1668512977463	Marionette	INFO	Listening on port 55018
+Read port: 55018
+WebDriver BiDi listening on ws://127.0.0.1:55006
+1668512977574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileLsblmD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55006/devtools/browser/f5de5006-7f30-4b2c-836a-806d7ab06d49
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668513004788	Marionette	INFO	Stopped listening on port 55018
+1668513047585	geckodriver	INFO	Listening on 127.0.0.1:55144
+1668513050677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejhYKWQ"
+1668513050974	Marionette	INFO	Marionette enabled
+1668513050977	Marionette	INFO	Listening on port 55156
+Read port: 55156
+WebDriver BiDi listening on ws://127.0.0.1:55145
+1668513051081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejhYKWQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55145/devtools/browser/6d10a2c2-8bd4-4286-b18a-cec85031c180
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-1cwxtn2gbtnw" on cross-origin object
+1668513097812	Marionette	INFO	Stopped listening on port 55156
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668513191887	geckodriver	INFO	Listening on 127.0.0.1:55315
+1668513195001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55316" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMRDUxc"
+1668513195271	Marionette	INFO	Marionette enabled
+1668513195274	Marionette	INFO	Listening on port 55327
+Read port: 55327
+WebDriver BiDi listening on ws://127.0.0.1:55316
+1668513195377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileMRDUxc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55316/devtools/browser/4323943b-30b4-4cc8-8eee-4a49002577af
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668513943205	geckodriver	INFO	Listening on 127.0.0.1:55823
+1668513946288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55824" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile2WTdgF"
+1668513946563	Marionette	INFO	Marionette enabled
+1668513946566	Marionette	INFO	Listening on port 55835
+Read port: 55835
+WebDriver BiDi listening on ws://127.0.0.1:55824
+1668513946675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile2WTdgF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55824/devtools/browser/9615b2f2-a5df-4edd-b915-8c9397325e6e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668514033731	Marionette	INFO	Stopped listening on port 55835
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668514042105	geckodriver	INFO	Listening on 127.0.0.1:55975
+1668514045166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileV4sdVI"
+1668514045427	Marionette	INFO	Marionette enabled
+1668514045431	Marionette	INFO	Listening on port 55987
+Read port: 55987
+WebDriver BiDi listening on ws://127.0.0.1:55976
+1668514045546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileV4sdVI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55976/devtools/browser/ffece2ea-b54f-4810-886a-83f1e24f5943
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668514056244	Marionette	INFO	Stopped listening on port 55987
+1668514057948	geckodriver	INFO	Listening on 127.0.0.1:56090
+1668514061024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejeuzEZ"
+1668514061285	Marionette	INFO	Marionette enabled
+1668514061288	Marionette	INFO	Listening on port 56102
+Read port: 56102
+WebDriver BiDi listening on ws://127.0.0.1:56091
+1668514061404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejeuzEZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56091/devtools/browser/0399f297-0690-444a-9057-8089c98b0a25
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668514073831	Marionette	INFO	Stopped listening on port 56102
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668514076214	geckodriver	INFO	Listening on 127.0.0.1:56203
+1668514079294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56204" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile4cXFDq"
+1668514079553	Marionette	INFO	Marionette enabled
+1668514079556	Marionette	INFO	Listening on port 56215
+Read port: 56215
+WebDriver BiDi listening on ws://127.0.0.1:56204
+1668514079676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile4cXFDq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56204/devtools/browser/24b00eb8-e55a-46a0-b29f-7739c20fbe1b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668514119684	Marionette	INFO	Stopped listening on port 56215
+1668514767454	geckodriver	INFO	Listening on 127.0.0.1:56631
+1668514770537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56732" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileSNOFwC"
+1668514770811	Marionette	INFO	Marionette enabled
+1668514770814	Marionette	INFO	Listening on port 56743
+Read port: 56743
+WebDriver BiDi listening on ws://127.0.0.1:56732
+1668514770915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileSNOFwC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56732/devtools/browser/4fae53be-25fd-413a-9150-1c1d807aa950
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-icggyimngahe" on cross-origin object
+1668514782655	Marionette	INFO	Stopped listening on port 56743
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668515232416	geckodriver	INFO	Listening on 127.0.0.1:57040
+1668515235498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilebmZwba"
+1668515235748	Marionette	INFO	Marionette enabled
+1668515235751	Marionette	INFO	Listening on port 57051
+WebDriver BiDi listening on ws://127.0.0.1:57041
+Read port: 57051
+1668515235933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilebmZwba\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57041/devtools/browser/9a77fdc7-9583-4153-886d-10761c9b9791
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668515269265	Marionette	INFO	Stopped listening on port 57051
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668515710400	geckodriver	INFO	Listening on 127.0.0.1:57357
+1668515713456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilemotLrf"
+1668515713710	Marionette	INFO	Marionette enabled
+1668515713713	Marionette	INFO	Listening on port 57369
+Read port: 57369
+WebDriver BiDi listening on ws://127.0.0.1:57358
+1668515713835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilemotLrf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57358/devtools/browser/d988fae0-8cb9-4701-8777-281159dc800b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668515744933	Marionette	INFO	Stopped listening on port 57369
+1668516593947	geckodriver	INFO	Listening on 127.0.0.1:57946
+1668516596997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile7vcHdb"
+1668516597256	Marionette	INFO	Marionette enabled
+1668516597259	Marionette	INFO	Listening on port 57961
+Read port: 57961
+WebDriver BiDi listening on ws://127.0.0.1:57947
+1668516597375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile7vcHdb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57947/devtools/browser/7c2d305e-51a7-4559-80f7-cebb63a9c96f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-hyf2eygbxmkz" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1668516632497	Marionette	INFO	Stopped listening on port 57961
+1668516688695	geckodriver	INFO	Listening on 127.0.0.1:58093
+1668516691798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile9wZ8uV"
+1668516692048	Marionette	INFO	Marionette enabled
+1668516692051	Marionette	INFO	Listening on port 58104
+WebDriver BiDi listening on ws://127.0.0.1:58094
+Read port: 58104
+1668516692232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile9wZ8uV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58094/devtools/browser/b1d7551c-d7a4-4dc6-86eb-9741fcaa3f9f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-mbc42cfiwnab" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+1668516870494	geckodriver	INFO	Listening on 127.0.0.1:58284
+1668516873553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejPKp6D"
+1668516873808	Marionette	INFO	Marionette enabled
+1668516873812	Marionette	INFO	Listening on port 58296
+WebDriver BiDi listening on ws://127.0.0.1:58285
+Read port: 58296
+1668516873991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejPKp6D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58285/devtools/browser/d89457e5-e806-492d-8e46-7f9d481ac722
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668517003461	Marionette	INFO	Stopped listening on port 58296
+1668518387109	geckodriver	INFO	Listening on 127.0.0.1:61915
+1668518390170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejI4Vq5"
+1668518390466	Marionette	INFO	Marionette enabled
+1668518390469	Marionette	INFO	Listening on port 61925
+Read port: 61925
+WebDriver BiDi listening on ws://127.0.0.1:61916
+1668518390570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejI4Vq5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61916/devtools/browser/a051cca3-45f4-40b2-b77a-5b2f8121eef5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668518397941	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668518440821	Marionette	INFO	Stopped listening on port 61925
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668518496124	geckodriver	INFO	Listening on 127.0.0.1:62017
+1668518499205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileqOviK1"
+1668518499469	Marionette	INFO	Marionette enabled
+1668518499472	Marionette	INFO	Listening on port 62028
+Read port: 62028
+WebDriver BiDi listening on ws://127.0.0.1:62018
+1668518499574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileqOviK1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62018/devtools/browser/36efacb6-d59f-457b-8600-03f6329b6fce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668518515658	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668518747067	Marionette	INFO	Stopped listening on port 62028
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668518804333	geckodriver	INFO	Listening on 127.0.0.1:55445
+1668518807414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55446" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile14vw46"
+1668518807669	Marionette	INFO	Marionette enabled
+1668518807673	Marionette	INFO	Listening on port 55455
+WebDriver BiDi listening on ws://127.0.0.1:55446
+Read port: 55455
+1668518807859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile14vw46\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55446/devtools/browser/6af8a184-5fba-4301-b61e-0a205d5cf8ef
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668518835547	Marionette	INFO	Stopped listening on port 55455
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668518837624	geckodriver	INFO	Listening on 127.0.0.1:55555
+1668518840700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55556" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejIoh5r"
+1668518840973	Marionette	INFO	Marionette enabled
+1668518840976	Marionette	INFO	Listening on port 55565
+Read port: 55565
+WebDriver BiDi listening on ws://127.0.0.1:55556
+1668518841111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilejIoh5r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55556/devtools/browser/5f89ccfe-af0b-4e90-b5a0-a7e50d31e9e9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668518851335	Marionette	INFO	Stopped listening on port 55565
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668518853316	geckodriver	INFO	Listening on 127.0.0.1:55659
+1668518856409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile2Zmrrz"
+1668518856695	Marionette	INFO	Marionette enabled
+1668518856699	Marionette	INFO	Listening on port 55670
+Read port: 55670
+WebDriver BiDi listening on ws://127.0.0.1:55660
+1668518856808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile2Zmrrz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55660/devtools/browser/7ae15e5f-a096-44b1-8698-8c7deafaf83f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668518936250	Marionette	INFO	Stopped listening on port 55670
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668518939603	geckodriver	INFO	Listening on 127.0.0.1:55773
+1668518942685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55774" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile3xckSZ"
+1668518942954	Marionette	INFO	Marionette enabled
+1668518942957	Marionette	INFO	Listening on port 55783
+Read port: 55783
+WebDriver BiDi listening on ws://127.0.0.1:55774
+1668518943079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile3xckSZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55774/devtools/browser/c98b9f87-25ff-480c-8ca8-5631d26c12d9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668518997849	geckodriver	INFO	Listening on 127.0.0.1:55867
+1668519000951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8uX3XP"
+1668519001205	Marionette	INFO	Marionette enabled
+1668519001208	Marionette	INFO	Listening on port 55877
+WebDriver BiDi listening on ws://127.0.0.1:55868
+Read port: 55877
+1668519001391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8uX3XP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55868/devtools/browser/78320d38-987f-4c6c-94d2-9b80d7d4aa0b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668519034266	Marionette	INFO	Stopped listening on port 55877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668519035588	geckodriver	INFO	Listening on 127.0.0.1:55968
+1668519038657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilers5Oju"
+1668519038906	Marionette	INFO	Marionette enabled
+1668519038911	Marionette	INFO	Listening on port 55979
+WebDriver BiDi listening on ws://127.0.0.1:55969
+Read port: 55979
+1668519039092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilers5Oju\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55969/devtools/browser/ab598d2e-bee9-4dc0-b092-199e9d1a3d58
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668519146964	Marionette	INFO	Stopped listening on port 55979
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668519149336	geckodriver	INFO	Listening on 127.0.0.1:56072
+1668519152427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilepmshYF"
+1668519152683	Marionette	INFO	Marionette enabled
+1668519152686	Marionette	INFO	Listening on port 56082
+Read port: 56082
+WebDriver BiDi listening on ws://127.0.0.1:56073
+1668519152875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilepmshYF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56073/devtools/browser/ed6532c3-e4bf-4b5b-83a4-d7d75d16cd5f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-uf2hpqw1ldjq" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Object
+1668519357235	Marionette	INFO	Stopped listening on port 56082
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668519801100	geckodriver	INFO	Listening on 127.0.0.1:56586
+1668519804192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiletFSdaM"
+1668519804446	Marionette	INFO	Marionette enabled
+1668519804449	Marionette	INFO	Listening on port 56597
+WebDriver BiDi listening on ws://127.0.0.1:56587
+Read port: 56597
+1668519804568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiletFSdaM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56587/devtools/browser/6245a2bd-ed24-4351-b4c6-8b593d35e5d8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668519817471	Marionette	INFO	Stopped listening on port 56597
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668519818948	geckodriver	INFO	Listening on 127.0.0.1:56801
+1668519821999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56802" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileUMpbro"
+1668519822253	Marionette	INFO	Marionette enabled
+1668519822257	Marionette	INFO	Listening on port 56812
+WebDriver BiDi listening on ws://127.0.0.1:56802
+Read port: 56812
+1668519822444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileUMpbro\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56802/devtools/browser/d5758a69-7dcc-4225-9682-5abd709efb2f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Object
+1668520487152	geckodriver	INFO	Listening on 127.0.0.1:58337
+1668520490217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilenSGkBf"
+1668520490470	Marionette	INFO	Marionette enabled
+1668520490474	Marionette	INFO	Listening on port 58349
+WebDriver BiDi listening on ws://127.0.0.1:58338
+Read port: 58349
+1668520490654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilenSGkBf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58338/devtools/browser/e2674693-6413-4993-ba38-6ed3e65697c9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: uncaught exception: Object
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668520642638	Marionette	INFO	Stopped listening on port 58349
+1668528968762	geckodriver	INFO	Listening on 127.0.0.1:62580
+1668528971875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile1dJ1vx"
+1668528972138	Marionette	INFO	Marionette enabled
+1668528972141	Marionette	INFO	Listening on port 62592
+Read port: 62592
+WebDriver BiDi listening on ws://127.0.0.1:62581
+1668528972244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile1dJ1vx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62581/devtools/browser/054bafd4-a8de-4906-9bff-376d863d8598
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668529102508	Marionette	INFO	Stopped listening on port 62592
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668529104103	geckodriver	INFO	Listening on 127.0.0.1:62741
+1668529107150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62742" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile6Bfob1"
+1668529107401	Marionette	INFO	Marionette enabled
+1668529107404	Marionette	INFO	Listening on port 62753
+WebDriver BiDi listening on ws://127.0.0.1:62742
+Read port: 62753
+1668529107587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile6Bfob1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62742/devtools/browser/dadefd96-377f-48aa-80d6-e3cb088bdbe3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668529316662	Marionette	INFO	Stopped listening on port 62753
+1668529320220	geckodriver	INFO	Listening on 127.0.0.1:62968
+1668529323312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiled0aCbL"
+1668529323560	Marionette	INFO	Marionette enabled
+1668529323563	Marionette	INFO	Listening on port 62979
+WebDriver BiDi listening on ws://127.0.0.1:62969
+Read port: 62979
+1668529323748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiled0aCbL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62969/devtools/browser/94e85f8c-47bb-47c2-a37b-3f9347d888c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668529422805	Marionette	INFO	Stopped listening on port 62979
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668529609554	geckodriver	INFO	Listening on 127.0.0.1:63218
+1668529612625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5xzLP4"
+1668529612877	Marionette	INFO	Marionette enabled
+1668529612880	Marionette	INFO	Listening on port 63230
+WebDriver BiDi listening on ws://127.0.0.1:63219
+Read port: 63230
+1668529613059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5xzLP4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63219/devtools/browser/abe1490b-fd28-4f34-8a39-17d8952f1b4a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668529806904	geckodriver	INFO	Listening on 127.0.0.1:63398
+1668529809974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilecHIPz5"
+1668529810232	Marionette	INFO	Marionette enabled
+1668529810235	Marionette	INFO	Listening on port 63410
+WebDriver BiDi listening on ws://127.0.0.1:63399
+Read port: 63410
+1668529810425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilecHIPz5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63399/devtools/browser/7950c9fe-0fec-467e-b1dd-28e7391a1434
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668530140860	Marionette	INFO	Stopped listening on port 63410
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 21876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668530143084	geckodriver	INFO	Listening on 127.0.0.1:63656
+1668530146161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63657" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile95BwWc"
+1668530146416	Marionette	INFO	Marionette enabled
+1668530146419	Marionette	INFO	Listening on port 63667
+WebDriver BiDi listening on ws://127.0.0.1:63657
+Read port: 63667
+1668530146537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile95BwWc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63657/devtools/browser/83c911b4-fc8c-4eba-9ccd-be7da6af27bf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668530463910	Marionette	INFO	Stopped listening on port 63667
+1668530465881	geckodriver	INFO	Listening on 127.0.0.1:64005
+1668530468954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileTFPA7D"
+1668530469208	Marionette	INFO	Marionette enabled
+1668530469212	Marionette	INFO	Listening on port 64016
+WebDriver BiDi listening on ws://127.0.0.1:64006
+Read port: 64016
+1668530469403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileTFPA7D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64006/devtools/browser/1be8a3ec-d355-4a83-9198-f30a99819687
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+1668530510557	Marionette	INFO	Stopped listening on port 64016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668530547342	geckodriver	INFO	Listening on 127.0.0.1:64130
+1668530550399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileXvnr15"
+1668530550660	Marionette	INFO	Marionette enabled
+1668530550664	Marionette	INFO	Listening on port 64141
+Read port: 64141
+WebDriver BiDi listening on ws://127.0.0.1:64131
+1668530550770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileXvnr15\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64131/devtools/browser/e0a630ca-39b9-4380-9b40-bc797d32e2df
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668530577474	geckodriver	INFO	Listening on 127.0.0.1:64226
+1668530580515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilem7SzOH"
+1668530580769	Marionette	INFO	Marionette enabled
+1668530580772	Marionette	INFO	Listening on port 64237
+WebDriver BiDi listening on ws://127.0.0.1:64227
+Read port: 64237
+1668530580952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilem7SzOH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64227/devtools/browser/99467947-0434-4c61-94a0-0a77b9cb108c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1056: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: resource:///modules/PlacesUIUtils.sys.mjs, line 746: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.view.selection is null" {file: "chrome://browser/content/places/places-tree.js" line: 225}]'[JavaScript Error: "this.view.selection is null" {file: "chrome://browser/content/places/places-tree.js" line: 225}]' when calling method: [nsIController::isCommandEnabled]
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: chrome://browser/content/places/places-tree.js, line 225: TypeError: this.view.selection is null
+JavaScript error: resource:///modules/PlacesUIUtils.sys.mjs, line 746: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.view.selection is null" {file: "chrome://browser/content/places/places-tree.js" line: 225}]'[JavaScript Error: "this.view.selection is null" {file: "chrome://browser/content/places/places-tree.js" line: 225}]' when calling method: [nsIController::isCommandEnabled]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668531146650	Marionette	INFO	Stopped listening on port 64237
+[Parent 14860, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668531156520	geckodriver	INFO	Listening on 127.0.0.1:64657
+1668531159545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64658" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileoZT84x"
+1668531159811	Marionette	INFO	Marionette enabled
+1668531159814	Marionette	INFO	Listening on port 64670
+Read port: 64670
+WebDriver BiDi listening on ws://127.0.0.1:64658
+1668531159922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileoZT84x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64658/devtools/browser/ea7ff1d7-16d0-4660-bed3-4f2e6d16f50c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+1668531210742	Marionette	INFO	Stopped listening on port 64670
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668531217715	geckodriver	INFO	Listening on 127.0.0.1:64789
+1668531220767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64790" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilefP6xLz"
+1668531221022	Marionette	INFO	Marionette enabled
+1668531221025	Marionette	INFO	Listening on port 64802
+Read port: 64802
+WebDriver BiDi listening on ws://127.0.0.1:64790
+1668531221134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilefP6xLz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64790/devtools/browser/b1b77210-624b-4e07-a2b7-e912a410da93
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+1668531230403	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1668531422040	geckodriver	INFO	Listening on 127.0.0.1:65016
+1668531425122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileUlJkSp"
+1668531425373	Marionette	INFO	Marionette enabled
+1668531425376	Marionette	INFO	Listening on port 65027
+Read port: 65027
+WebDriver BiDi listening on ws://127.0.0.1:65017
+1668531425494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileUlJkSp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65017/devtools/browser/e6ef1055-de00-4682-9a0c-f9bfb9be0f61
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668531556735	Marionette	INFO	Stopped listening on port 65027
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668531778528	geckodriver	INFO	Listening on 127.0.0.1:65282
+1668531781577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiletsEA7k"
+1668531781836	Marionette	INFO	Marionette enabled
+1668531781840	Marionette	INFO	Listening on port 65294
+Read port: 65294
+WebDriver BiDi listening on ws://127.0.0.1:65283
+1668531781937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiletsEA7k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65283/devtools/browser/03783f42-aaf1-484f-bfe1-0179d307b60d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668531852155	Marionette	INFO	Stopped listening on port 65294
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668531854450	geckodriver	INFO	Listening on 127.0.0.1:65421
+1668531857539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65422" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileJke1kX"
+1668531857797	Marionette	INFO	Marionette enabled
+1668531857800	Marionette	INFO	Listening on port 65433
+WebDriver BiDi listening on ws://127.0.0.1:65422
+Read port: 65433
+1668531857992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileJke1kX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65422/devtools/browser/33627cb8-3103-46c6-9f30-ea7d4c551e15
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668532565505	Marionette	INFO	Stopped listening on port 65433
+aScript error: , line 0: uncaught exception: Timeout (j)
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'file:///'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1668532567769	geckodriver	INFO	Listening on 127.0.0.1:50068
+1668532570841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileoYYeDf"
+1668532571108	Marionette	INFO	Marionette enabled
+1668532571111	Marionette	INFO	Listening on port 50079
+Read port: 50079
+WebDriver BiDi listening on ws://127.0.0.1:50069
+1668532571213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileoYYeDf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50069/devtools/browser/73a1f614-471e-4bf9-a53d-468e2f2e5cc6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1668532692199	Marionette	INFO	Stopped listening on port 50079
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668532703829	geckodriver	INFO	Listening on 127.0.0.1:50249
+1668532706899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50250" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5nLp1S"
+1668532707151	Marionette	INFO	Marionette enabled
+1668532707154	Marionette	INFO	Listening on port 50461
+Read port: 50461
+WebDriver BiDi listening on ws://127.0.0.1:50250
+1668532707274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile5nLp1S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50250/devtools/browser/6bd80402-bec0-4e96-b8e5-37807d5fd2d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-la8kkk3d3la" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1668532765669	Marionette	INFO	Stopped listening on port 50461
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668533050557	geckodriver	INFO	Listening on 127.0.0.1:61424
+1668533053604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilePKL9dx"
+1668533053882	Marionette	INFO	Marionette enabled
+1668533053887	Marionette	INFO	Listening on port 61447
+Read port: 61447
+WebDriver BiDi listening on ws://127.0.0.1:61425
+1668533053991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilePKL9dx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61425/devtools/browser/666d37d6-bcfe-4fa8-9d71-4e895876489c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-k4ci7bk29lv3" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668533158928	Marionette	INFO	Stopped listening on port 61447
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668533245850	geckodriver	INFO	Listening on 127.0.0.1:49185
+1668533248929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileza0AXo"
+1668533249205	Marionette	INFO	Marionette enabled
+1668533249208	Marionette	INFO	Listening on port 49197
+Read port: 49197
+WebDriver BiDi listening on ws://127.0.0.1:49186
+1668533249319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileza0AXo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49186/devtools/browser/0207690d-dcec-4cd6-a82f-0c8227b136f4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.gstatic.com/recaptcha/releases/jF-AgDWy8ih0GfLx4Semh9UK/recaptcha__de.js, line 827: SecurityError: Permission denied to access property "a-dsahpvnwdf93" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1668533726410	Marionette	INFO	Stopped listening on port 49197
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileOXwyIO"
+1668533547488	Marionette	INFO	Marionette enabled
+1668533547493	Marionette	INFO	Listening on port 54483
+Read port: 54483
+WebDriver BiDi listening on ws://127.0.0.1:54473
+1668533547606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileOXwyIO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54473/devtools/browser/f9f9d7cd-9c33-4b08-a744-5de654ca75b6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://js.hsforms.net/forms/embed/v2.js, line 1: uncaught exception: [object Event]
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (f)
+JavaScript error: , line 0: uncaught exception: Timeout (j)

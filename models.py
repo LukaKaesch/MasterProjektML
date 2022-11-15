@@ -1,4 +1,4 @@
-class Image:
+class Product:
     def __init__(self, title, link):
         self.link = link
         self.title = title
@@ -8,3 +8,9 @@ class Image:
             if self.title == l.title:
                 return True
         return False
+
+
+class Productt:
+    def __init__(self, url, part_number):
+        self.url = url
+        self.part_number = part_number
