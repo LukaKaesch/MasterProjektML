@@ -12,8 +12,8 @@ from selenium.webdriver.firefox.options import Options
 from helper import create_folder
 
 # Globals
-EMAIL = 'ernst.diener@nordakademie.de'
-PW = 'Ab123456'
+EMAIL = ''
+PW = ''
 SEARCH_TERM = 'Griff'
 MANUFACTURER = ManufacturerGanter
 MAX_RESULTS_PER_SEARCH_TERM = 1000
