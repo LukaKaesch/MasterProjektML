@@ -8,28 +8,34 @@
 
 # imports
 import pywavefront
-from pywavefront import visualization
-import pyglet
-import tensorflow as tf
+#from pywavefront import visualization
+#import pyglet
+#import tensorflow as tf
 from vedo import *
-from tensorflow_io.python.ops import core_ops
+#from tensorflow_io.python.ops import core_ops
 import re
+import random
 
-
-
+coordinates_group = []
+coordinates = []
 
 with open('00013739.obj') as f:
     lines = f.readlines()
     vertices = []
     faces = []
 
+
 for line in lines:
     if line.startswith('v '):
         vertices.append(line)
+        coordinates.append(line.replace('v ', ''))
     elif line.startswith('f '):
         faces.append(line)
     else:
         continue
+
+
+
 
 
 with open("decoded_object.txt", "w") as o:
@@ -37,6 +43,11 @@ with open("decoded_object.txt", "w") as o:
         o.write(element)
     for element in faces:
         o.write(element)
+
+with open("coordinates.txt", "w") as c:
+    for element in coordinates:
+        c.write(element)
+
 
 
 # .obj as Mesh
@@ -46,9 +57,28 @@ test_object = Mesh("00013739.obj")
 test_object2 = pywavefront.Wavefront('00013739.obj')
 
 
+def distort_coords(coords):
+    help_list = []
+    for i in coords:
+        help_list.append(i.split(' '))
+        for list in help_list:
+            for number in list:
+                number = float(number) / random.uniform(1.0,2.0)
+                coordinates_group.append(number)
+    with open("distorted coordinates.txt", "w") as dc:
+        for element in coordinates_group:
+            dc.write(str(element))
 
 
-test_object.show()
+
+
+
+
+
+distort_coords(coordinates)
+
+
+#test_object.show()
 
 #decode_obj(test_obejct)
 
