@@ -4,6 +4,7 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from helper import save_list_as_xml
 
 
 class ResultPage:
@@ -60,7 +61,7 @@ class ResultPage:
                 print('Log: Scrolling exception, ' + str(e))
                 continue
 
-    def get_possible_results(self, manufacturer_object):
+    def get_possible_results(self, manufacturer_object, append_new_results_check):
         all_results = self.driver.find_element(By.ID, 'search-results-items').find_elements(By.XPATH, './*')
         filtered_results = manufacturer_object.filter_all_results(manufacturer_object, all_results)
-        return filtered_results
+        save_list_as_xml(filtered_results, append_new_results_check)

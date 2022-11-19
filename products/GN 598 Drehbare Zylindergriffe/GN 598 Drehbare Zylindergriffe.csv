@@ -1,0 +1,33 @@
+,Bestellnummer,d1 (mm),d2,d3 (mm),d4 (mm),l1 (mm),l2 (mm),l3 (mm),Werkstoff
+
+,GN 598 -KU-18-M6,18,M6,10,15,40,12,2.5,Kunststoff/Stahl
+,GN 598 -KU-21-M6,21,M6,10,17,50,13,2.5,Kunststoff/Stahl
+,GN 598 -KU-21-M8,21,M8,10,17,50,13,2.5,Kunststoff/Stahl
+,GN 598 -KU-22-M6,22,M6,10,18,56,13,2.5,Kunststoff/Stahl
+,GN 598 -KU-22-M8,22,M8,10,18,56,13,2.5,Kunststoff/Stahl
+,GN 598 -KU-23-M8,23,M8,13,19,65,14,2.5,Kunststoff/Stahl
+,GN 598 -KU-23-M10,23,M10,13,19,65,14,2.5,Kunststoff/Stahl
+,GN 598 -KU-26-M8,26,M8,13,21,80,16,2.5,Kunststoff/Stahl
+,GN 598 -KU-26-M10,26,M10,13,21,80,16,2.5,Kunststoff/Stahl
+,GN 598 -KU-28-M10,28,M10,13,22,90,16,2.5,Kunststoff/Stahl
+,GN 598 -KU-31-M12,31,M12,14,25,102,20,2.5,Kunststoff/Stahl
+,GN 598 -KT-14-M6,14,M6,8,11,28,10,0.5,Kunststoff/Stahl
+,GN 598 -KT-18-M6,18,M6,10,15,40,12,2.5,Kunststoff/Stahl
+,GN 598 -KT-21-M6,21,M6,10,17,50,13,2.5,Kunststoff/Stahl
+,GN 598 -KT-21-M8,21,M8,10,17,50,13,2.5,Kunststoff/Stahl
+,GN 598 -KT-22-M6,22,M6,10,18,56,13,2.5,Kunststoff/Stahl
+,GN 598 -KT-22-M8,22,M8,10,18,56,13,2.5,Kunststoff/Stahl
+,GN 598 -KT-23-M8,23,M8,13,19,65,14,2.5,Kunststoff/Stahl
+,GN 598 -KT-23-M10,23,M10,13,19,65,14,2.5,Kunststoff/Stahl
+,GN 598 -KT-26-M8,26,M8,13,21,80,16,2.5,Kunststoff/Stahl
+,GN 598 -KT-26-M10,26,M10,13,21,80,16,2.5,Kunststoff/Stahl
+,GN 598 -KT-28-M10,28,M10,13,22,90,16,2.5,Kunststoff/Stahl
+,GN 598 -ST-18-M6,18,M6,10,15,40,12,2.5,Stahl/Stahl
+,GN 598 -ST-21-M6,21,M6,10,17,50,13,2.5,Stahl/Stahl
+,GN 598 -ST-21-M8,21,M8,10,17,50,13,2.5,Stahl/Stahl
+,GN 598 -ST-23-M8,23,M8,13,19,65,14,2.5,Stahl/Stahl
+,GN 598 -ST-23-M10,23,M10,13,19,65,14,2.5,Stahl/Stahl
+,GN 598 -ST-26-M8,26,M8,13,21,80,16,2.5,Stahl/Stahl
+,GN 598 -ST-26-M10,26,M10,13,21,80,16,2.5,Stahl/Stahl
+,GN 598 -ST-28-M10,28,M10,13,22,90,16,2.5,Stahl/Stahl
+,GN 598 -ST-31-M12,31,M12,14,25,102,20,2.5,Stahl/Stahl

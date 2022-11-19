@@ -1,15 +1,18 @@
+import shutil
 import time
 import os
 import urllib.request
 import csv
-import shutil
+import zipfile
 
 from selenium.common import NoSuchElementException, TimeoutException
+from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
-from helper import create_folder, move_file, DIR_PATH, DOWNLOAD_DIR
+from helper import create_folder, move_file, create_product_information_xml \
+    , check_if_download_finished, DIR_PATH, DOWNLOAD_DIR
 
 
 class ProductPage:
@@ -80,47 +83,94 @@ class ProductPage:
     def select_obj_as_download_format(self):
         try:
             select = Select(self.driver.find_element(By.ID, 'cad-format-select'))
+            self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.CONTROL + Keys.HOME)
+            time.sleep(0.5)
             select.select_by_visible_text('OBJ')
             return True
         except Exception:
             print('Log: Obj is not available as download format')
             return False
 
+    def get_available_downloads(self):
+        try:
+            download_div = WebDriverWait(self.driver, 5) \
+                .until(EC.presence_of_element_located((By.XPATH,
+                                                       '//div[@id="dashboard-content-download-items"]//div[1]'))) \
+                .find_elements(By.XPATH, './*')
+            return download_div
+        except NoSuchElementException:
+            print('Log: No available downloads for: ' + self.product_title)
+            return None
+
+    def try_to_download_obj(self, part_number):
+        attempts = 0
+        while attempts < 2:
+            try:
+                obj = WebDriverWait(self.driver, 5) \
+                    .until(EC.element_to_be_clickable((By.XPATH,
+                                                           '//div[@id="dashboard-content-download-items"]//div['
+                                                           '1]/a/div[2]/i')))
+                obj.click()
+                time.sleep(2)
+                if not check_if_download_finished(DOWNLOAD_DIR):
+                    continue
+                return True
+            except Exception as e:
+                attempts += 1
+                time.sleep(3)
+                print('Log: Trying again to download')
+        print('Log: Download didnt work for: ' + part_number)
+        return False
+
+    def download_obj(self):
+        # Find partnumber and create directory
+        download_div = self.get_available_downloads()
+        if download_div is None: return
+        part_number = download_div[0].find_element(By.XPATH, '//div[@class="download-partnumber"]').text
+        if not create_folder(self.product_dir, part_number): return
+        if not self.try_to_download_obj(part_number):
+            shutil.rmtree(os.path.join(self.product_dir, part_number))
+            return
+        # Move file to correct directory und unzip
+        file_name = os.listdir(DOWNLOAD_DIR)[0]
+        if not move_file(DOWNLOAD_DIR + file_name, self.product_dir + part_number):
+            shutil.rmtree(os.path.join(self.product_dir, part_number))
+            return
+        with zipfile.ZipFile(self.product_dir + part_number + '/' + file_name, "r") as zip_ref:
+            zip_ref.extractall(self.product_dir + part_number)
+        # Product Information XML is created
+        create_product_information_xml(self.product_dir + part_number + '/',
+                                       self.driver.current_url,
+                                       self.manufacturer,
+                                       part_number)
+        os.remove(self.product_dir + part_number + '/' + file_name)
+
+    def check_if_download_successful(self):
+        try:
+            toast_container = WebDriverWait(self.driver, 10) \
+                .until(EC.presence_of_element_located((By.CLASS_NAME, 'toast-message')))
+            if toast_container.text == 'Ihre Anfrage wird bearbeitet. Die Datei wird für den Download erzeugt.':
+                print('Log: Download war erfolgreich!' or toast_container.text == 'Apollo.DownloadCAD.Start.Message')
+                return True
+            print('Log: Download war nicht erfolgreich!')
+            time.sleep(2)
+            return False
+        except Exception:
+            print('Log: Toast Container konnte nicht gefunden werden!')
+            time.sleep(2)
+            return False
+
     def pre_download_obj_files(self):
         table = self.driver.find_element(By.XPATH, '//div[@id="configuratorSteps"]//div[1]/table')
         table_rows = table.find_elements(By.CSS_SELECTOR, 'tr')
-
+        # Repeat for all products on table on product page
         for i in range(1, len(table_rows)):
+            # Click on table row to load new product
             row = self.driver.find_element(By.XPATH, '//tr[@data-row-id="' + str(i) + '"]')
             self.driver.execute_script("arguments[0].click();", row)
             time.sleep(5)
+            # Try to pre download the obj file and download it if successful
             download_button = self.driver.find_element(By.ID, 'direct-cad-download')
             self.driver.execute_script("arguments[0].click();", download_button)
+            if self.check_if_download_successful(): self.download_obj()
             time.sleep(5)
-            break
-
-    def download_obj_files(self):
-        self.pre_download_obj_files()
-        time.sleep(10)
-
-        try:
-            download_div = self.driver.find_element(By.XPATH, '//div[@id="dashboard-content-download-items"]//div[1]') \
-                .find_elements(By.XPATH, './*')
-        except NoSuchElementException:
-            print('Log: No available downloads for: ' + self.product_title)
-            return
-
-        for dwl in download_div:
-            part_number = dwl.find_element(By.XPATH, '//div[@class="download-partnumber"]').text
-            if not create_folder(self.product_dir, part_number): continue
-
-            self.driver.execute_script("arguments[0].click();", dwl)
-            time.sleep(3)
-
-            file_name = os.listdir(DOWNLOAD_DIR)[0]
-            if not move_file(DOWNLOAD_DIR + file_name, self.product_dir + part_number): continue
-
-
-
-
-

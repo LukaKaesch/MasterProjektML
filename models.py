@@ -9,8 +9,3 @@ class Product:
                 return True
         return False
 
-
-class Productt:
-    def __init__(self, url, part_number):
-        self.url = url
-        self.part_number = part_number
