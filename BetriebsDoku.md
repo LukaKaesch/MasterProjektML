@@ -31,3 +31,6 @@ erfasst werden sollen, ist damit eine Eingrenzung möglich
 Für False wird die Suche übersprungen und direkt nach dem Login mit den Produkten fortgefahren.
 * APPEND_NEW_SEARCH_RESULTS_TO_EXISTING_XML = Steht diese Variable auf True werden die Suchergebnisse zu der schon vorhandenen Liste links.xml
 hinzugefügt. Ansonsten wird eine neue Liste erstellt.
+
+Weitere Anmerkungen: In main.py in der Funktion init_config() muss für die Variable options.binary_location der korrekte 
+Pfad von Firefox angegeben sein!
