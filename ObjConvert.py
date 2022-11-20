@@ -53,6 +53,7 @@ with open("coordinates.txt", "w") as c:
 # .obj as Mesh
 test_object = Mesh("00013739.obj")
 
+
 # .obj as Wavefront
 test_object2 = pywavefront.Wavefront('00013739.obj')
 
@@ -62,20 +63,36 @@ def distort_coords(coords):
     for i in coords:
         help_list.append(i.split(' '))
         for list in help_list:
-            for number in list:
-                number = float(number) / random.uniform(1.0,2.0)
-                coordinates_group.append(number)
+            for count,number in enumerate(list,start=1):
+                if count == 1:
+                    coordinates_group.append('v ')
+                number = float(number) / random.uniform(1.0,1.00001) #distort the vertices
+                if str(number) == '0.0':
+                    number = '0.00000000' #zero numbers format correction
+                else:
+                    number = str(number)[:10] #cut to 10 places
+                coordinates_group.append(str(number))
+                coordinates_group.append(' ')
+                if count % 3 == 0 and count != 0: #break after every three iterations
+                    coordinates_group.append("\n")
+    with open("distorted coordinates.obj", "w") as dc:
+        for element in coordinates_group:
+            dc.write(str(element))
+        for element in faces:
+            dc.write(element)
+    #.txt file to check coordinates
     with open("distorted coordinates.txt", "w") as dc:
         for element in coordinates_group:
             dc.write(str(element))
-
-
-
-
-
+        for element in faces:
+            dc.write(element)
 
 
 distort_coords(coordinates)
+
+
+distorted = Mesh("distorted coordinates.obj")
+distorted.show()
 
 
 #test_object.show()
