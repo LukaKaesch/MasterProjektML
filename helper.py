@@ -1,6 +1,6 @@
-import glob
 import os
 import shutil
+import socket
 import time
 import xml.etree.cElementTree as ET
 
@@ -8,6 +8,7 @@ from models import Product
 
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 DOWNLOAD_DIR = os.path.join(DIR_PATH, 'tmp_downloads\\')
+EMAIL_ITERATOR = 0
 
 
 def create_folder(dir_path, title):
@@ -93,3 +94,20 @@ def check_if_download_finished(path):
 def empty_tmp_downloads_directory():
     shutil.rmtree(DOWNLOAD_DIR)
     os.makedirs('tmp_downloads')
+
+
+def check_connection():
+    try:
+        host = socket.gethostbyname('www.traceparts.com')
+        socket.create_connection((host, 80), 2)
+        return True
+    except Exception:
+        time.sleep(3)
+        return False
+
+
+def directory_exists(path):
+    return os.path.isdir(path)
+
+
+

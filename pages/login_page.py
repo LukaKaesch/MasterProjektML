@@ -11,7 +11,6 @@ class LoginPage:
 
         cookie_button = self.driver.find_element(By.ID, 'didomi-notice-agree-button')
         cookie_button.click()
-
         self.driver.find_element(By.ID, 'Email').send_keys(email)
         self.driver.find_element(By.ID, 'Password').send_keys(pw)
         self.driver.find_element(By.ID, 'signin-btn').click()

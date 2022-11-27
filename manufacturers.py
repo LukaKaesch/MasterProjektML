@@ -8,7 +8,7 @@ from models import Product
 
 class ManufacturerGanter:
     Name = "GANTER"
-    Image_Title = "Parameter Bild"
+    Image_Title = ["Parameter Bild", "Maßblätter", "Maßzeichnung"]
 
     def filter_all_results(self, all_results):
         filtered_results = []
@@ -26,7 +26,7 @@ class ManufacturerGanter:
 
 class ManufacturerKipp:
     Name = "KIPP"
-    Image_Title = "Zeichnung"
+    Image_Title = ["Zeichnung"]
 
     def filter_all_results(self, all_results):
         filtered_results = []

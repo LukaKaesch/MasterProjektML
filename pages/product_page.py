@@ -12,11 +12,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from helper import create_folder, move_file, create_product_information_xml \
-    , check_if_download_finished, DIR_PATH, DOWNLOAD_DIR
+    , check_if_download_finished, directory_exists, DIR_PATH, DOWNLOAD_DIR
+
+DOWNLOAD_FAILED_COUNTER = 0
 
 
 class ProductPage:
     def __init__(self, driver, manufacturer, product_title):
+        self.change_account = False
         self.driver = driver
         self.manufacturer = manufacturer
         self.product_title = product_title
@@ -32,15 +35,16 @@ class ProductPage:
             return False
 
     def save_image(self):
-        try:
-            image_link = self.driver.find_element(By.XPATH,
-                                                  '//img[@title="' + self.manufacturer.Image_Title + '"]') \
-                .get_attribute('src')
-        except NoSuchElementException:
-            print('Log: No image found for "' + self.product_title + '" for title: ' + self.manufacturer.Image_Title)
-            return
-
-        urllib.request.urlretrieve(image_link, 'products/' + self.product_title + '/' + self.product_title + '.jpg')
+        for title in self.manufacturer.Image_Title:
+            try:
+                image_link = self.driver.find_element(By.XPATH,
+                                                      '//img[@title="' + title + '"]') \
+                    .get_attribute('src')
+                urllib.request.urlretrieve(image_link,
+                                           'products/' + self.product_title + '/' + self.product_title + '.jpg')
+                return
+            except NoSuchElementException:
+                continue
 
     def check_table_footer(self):
         try:
@@ -104,15 +108,16 @@ class ProductPage:
 
     def try_to_download_obj(self, part_number):
         attempts = 0
-        while attempts < 2:
+        while attempts < 4:
             try:
                 obj = WebDriverWait(self.driver, 5) \
                     .until(EC.element_to_be_clickable((By.XPATH,
-                                                           '//div[@id="dashboard-content-download-items"]//div['
-                                                           '1]/a/div[2]/i')))
+                                                       '//div[@id="dashboard-content-download-items"]//div['
+                                                       '1]/a/div[2]/i')))
                 obj.click()
                 time.sleep(2)
                 if not check_if_download_finished(DOWNLOAD_DIR):
+                    attempts += 1
                     continue
                 return True
             except Exception as e:
@@ -146,17 +151,23 @@ class ProductPage:
         os.remove(self.product_dir + part_number + '/' + file_name)
 
     def check_if_download_successful(self):
+        global DOWNLOAD_FAILED_COUNTER
         try:
             toast_container = WebDriverWait(self.driver, 10) \
                 .until(EC.presence_of_element_located((By.CLASS_NAME, 'toast-message')))
-            if toast_container.text == 'Ihre Anfrage wird bearbeitet. Die Datei wird für den Download erzeugt.':
-                print('Log: Download war erfolgreich!' or toast_container.text == 'Apollo.DownloadCAD.Start.Message')
+            if toast_container.text == 'Ihre Anfrage wird bearbeitet. Die Datei wird für den Download erzeugt.' \
+                    or toast_container.text == 'Apollo.DownloadCAD.Start.Message':
+                print('Log: Download was successful!')
+                DOWNLOAD_FAILED_COUNTER = 0
                 return True
-            print('Log: Download war nicht erfolgreich!')
-            time.sleep(2)
+            print('Log: Download failed!')
+            DOWNLOAD_FAILED_COUNTER += 1
+            if DOWNLOAD_FAILED_COUNTER > 4:
+                self.change_account = True
+                DOWNLOAD_FAILED_COUNTER = 0
             return False
         except Exception:
-            print('Log: Toast Container konnte nicht gefunden werden!')
+            print('Log: Toast Container couldn\'t be found!')
             time.sleep(2)
             return False
 
@@ -167,10 +178,14 @@ class ProductPage:
         for i in range(1, len(table_rows)):
             # Click on table row to load new product
             row = self.driver.find_element(By.XPATH, '//tr[@data-row-id="' + str(i) + '"]')
+            part_number = self.driver.find_element(By.XPATH, '//tr[@data-row-id="' + str(i) + '"]/td[2]').text
+            if directory_exists(self.product_dir + part_number): continue
             self.driver.execute_script("arguments[0].click();", row)
-            time.sleep(5)
+            time.sleep(10)
             # Try to pre download the obj file and download it if successful
             download_button = self.driver.find_element(By.ID, 'direct-cad-download')
             self.driver.execute_script("arguments[0].click();", download_button)
             if self.check_if_download_successful(): self.download_obj()
-            time.sleep(5)
+            if self.change_account: break
+            time.sleep(10)
+
