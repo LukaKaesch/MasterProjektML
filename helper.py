@@ -4,6 +4,8 @@ import socket
 import time
 import xml.etree.cElementTree as ET
 
+from selenium.webdriver.common.by import By
+
 from models import Product
 
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -19,6 +21,19 @@ def create_folder(dir_path, title):
     except Exception:
         print('Log: Folder "' + str(dir_path) + title + '" already exists.')
         return False
+
+
+def create_classification_folder_structure(driver):
+    classifications = driver.find_elements(By.XPATH, '//section[@id="section-center"]/div[1]/a')
+    classifications = classifications[1:len(classifications)]
+    path = os.path.join(DIR_PATH, 'products')
+    for classification in classifications:
+        path = os.path.join(path, classification.text)
+        try:
+            os.mkdir(path)
+        except Exception:
+            print(f'Log: Folder structure "{path}" already exists.')
+    return path
 
 
 def move_file(source, destination):
@@ -61,11 +76,11 @@ def create_product_information_xml(directory, url, manu, partn):
         root = ET.Element("root")
         product = ET.SubElement(root, "ProductInformation")
         ET.SubElement(product, "Url").text = url
-        ET.SubElement(product, "Manufacturer").text = manu.Name
+        ET.SubElement(product, "Manufacturer").text = manu
         ET.SubElement(product, "PartNumber").text = partn
         tree = ET.ElementTree(root)
         ET.indent(tree, space="\t", level=0)
-        tree.write(directory + "ProductInformation.xml")
+        tree.write(directory + "/ProductInformation.xml")
     except Exception:
         print('Log: Product information couldnt be created for: ' + url)
 
@@ -110,4 +125,15 @@ def directory_exists(path):
     return os.path.isdir(path)
 
 
-
+def remove_forbidden_chars(string):
+    string = string.replace('/', '_')
+    string = string.replace('\\', '_')
+    string = string.replace(':', '_')
+    string = string.replace('*', '_')
+    string = string.replace('?', '_')
+    string = string.replace('"', '_')
+    string = string.replace('<', '_')
+    string = string.replace('>', '_')
+    string = string.replace('|', '_')
+    string = string.replace('.', '_')
+    return string

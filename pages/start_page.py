@@ -7,7 +7,6 @@ class StartPage:
     def __init__(self, driver):
         self.driver = driver
 
-    def start_search(self, search_term):
-        driver = self.driver
-        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, 'searchBox'))).send_keys(search_term)
-        driver.find_element(By.ID, 'search-button').click()
+    def start_search_by_mechanical_components(self):
+        self.driver.get('https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten'
+                        '?CatalogPath=TRACEPARTS%3ATP01')

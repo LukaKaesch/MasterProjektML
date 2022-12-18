@@ -1,7 +1,6 @@
 import shutil
 import time
 import os
-import urllib.request
 import csv
 import zipfile
 
@@ -11,19 +10,25 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
-from helper import create_folder, move_file, create_product_information_xml \
-    , check_if_download_finished, directory_exists, DIR_PATH, DOWNLOAD_DIR
+from helper import *
 
 DOWNLOAD_FAILED_COUNTER = 0
 
 
 class ProductPage:
-    def __init__(self, driver, manufacturer, product_title):
+    def __init__(self, driver, product_title):
         self.change_account = False
         self.driver = driver
-        self.manufacturer = manufacturer
-        self.product_title = product_title
-        self.product_dir = str(DIR_PATH + '/products/' + self.product_title + '/')
+        self.manufacturer = 'Keine Angabe'
+        self.product_title = remove_forbidden_chars(product_title)
+        self.product_dir = ''
+
+    def set_manufacturer_name(self):
+        try:
+            manufacturer_element = self.driver.find_element(By.XPATH, '//div[@id="overview"]//img')
+            self.manufacturer = manufacturer_element.get_attribute('title')
+        except Exception:
+            print(f'Manufacturer name not found for {self.product_title}')
 
     def open_page(self, url):
         try:
@@ -33,18 +38,6 @@ class ProductPage:
             return True
         except Exception:
             return False
-
-    def save_image(self):
-        for title in self.manufacturer.Image_Title:
-            try:
-                image_link = self.driver.find_element(By.XPATH,
-                                                      '//img[@title="' + title + '"]') \
-                    .get_attribute('src')
-                urllib.request.urlretrieve(image_link,
-                                           'products/' + self.product_title + '/' + self.product_title + '.jpg')
-                return
-            except NoSuchElementException:
-                continue
 
     def check_table_footer(self):
         try:
@@ -74,7 +67,7 @@ class ProductPage:
     def save_table(self):
         try:
             table = self.driver.find_element(By.XPATH, '//div[@id="configuratorSteps"]//div[1]/table')
-            path = 'products/' + self.product_title + '/' + self.product_title + '.csv'
+            path = self.product_dir + '/different_variations.csv'
             with open(path, 'w', newline='') as csvfile:
                 wr = csv.writer(csvfile)
                 first_row = table.find_element(By.CSS_SELECTOR, 'tr')
@@ -86,13 +79,16 @@ class ProductPage:
 
     def select_obj_as_download_format(self):
         try:
-            select = Select(self.driver.find_element(By.ID, 'cad-format-select'))
-            self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.CONTROL + Keys.HOME)
+            select_el = self.driver.find_element(By.ID, 'cad-format-select')
+            select = Select(select_el)
+            self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center', inline: "
+                                       "'center'});", select_el)
             time.sleep(0.5)
             select.select_by_visible_text('OBJ')
+            self.driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.CONTROL + Keys.HOME)
             return True
         except Exception:
-            print('Log: Obj is not available as download format')
+            print(f'Log: Obj is not available as download format for product {self.product_title}')
             return False
 
     def get_available_downloads(self):
@@ -128,27 +124,31 @@ class ProductPage:
         return False
 
     def download_obj(self):
-        # Find partnumber and create directory
-        download_div = self.get_available_downloads()
-        if download_div is None: return
-        part_number = download_div[0].find_element(By.XPATH, '//div[@class="download-partnumber"]').text
-        if not create_folder(self.product_dir, part_number): return
-        if not self.try_to_download_obj(part_number):
-            shutil.rmtree(os.path.join(self.product_dir, part_number))
-            return
-        # Move file to correct directory und unzip
-        file_name = os.listdir(DOWNLOAD_DIR)[0]
-        if not move_file(DOWNLOAD_DIR + file_name, self.product_dir + part_number):
-            shutil.rmtree(os.path.join(self.product_dir, part_number))
-            return
-        with zipfile.ZipFile(self.product_dir + part_number + '/' + file_name, "r") as zip_ref:
-            zip_ref.extractall(self.product_dir + part_number)
-        # Product Information XML is created
-        create_product_information_xml(self.product_dir + part_number + '/',
-                                       self.driver.current_url,
-                                       self.manufacturer,
-                                       part_number)
-        os.remove(self.product_dir + part_number + '/' + file_name)
+        try:
+            # Find partnumber and create directory
+            download_div = self.get_available_downloads()
+            if download_div is None: return
+            part_number = download_div[0].find_element(By.XPATH, '//div[@class="download-partnumber"]').text
+            if not self.try_to_download_obj(part_number):
+                shutil.rmtree(self.product_dir)
+                return
+            # Move file to correct directory und unzip
+            file_name = os.listdir(DOWNLOAD_DIR)[0]
+            if not move_file(DOWNLOAD_DIR + file_name, self.product_dir):
+                shutil.rmtree(os.path.join(self.product_dir, part_number))
+                return
+            with zipfile.ZipFile(self.product_dir + '/' + file_name, "r") as zip_ref:
+                zip_ref.extractall(self.product_dir)
+            # Product Information XML is created
+            create_product_information_xml(self.product_dir,
+                                           self.driver.current_url,
+                                           self.manufacturer,
+                                           part_number)
+            os.remove(self.product_dir + '/' + file_name)
+            return True
+        except Exception as e:
+            print(f"Log: Excecption in download_obj: {e}")
+            return False
 
     def check_if_download_successful(self):
         global DOWNLOAD_FAILED_COUNTER
@@ -172,20 +172,13 @@ class ProductPage:
             return False
 
     def pre_download_obj_files(self):
-        table = self.driver.find_element(By.XPATH, '//div[@id="configuratorSteps"]//div[1]/table')
-        table_rows = table.find_elements(By.CSS_SELECTOR, 'tr')
-        # Repeat for all products on table on product page
-        for i in range(1, len(table_rows)):
-            # Click on table row to load new product
-            row = self.driver.find_element(By.XPATH, '//tr[@data-row-id="' + str(i) + '"]')
-            part_number = self.driver.find_element(By.XPATH, '//tr[@data-row-id="' + str(i) + '"]/td[2]').text
-            if directory_exists(self.product_dir + part_number): continue
-            self.driver.execute_script("arguments[0].click();", row)
+        time.sleep(10)
+        # Try to pre download the obj file and download it if successful
+        download_button = self.driver.find_element(By.ID, 'direct-cad-download')
+        self.driver.execute_script("arguments[0].click();", download_button)
+        if self.check_if_download_successful():
+            if not self.download_obj(): return False
             time.sleep(10)
-            # Try to pre download the obj file and download it if successful
-            download_button = self.driver.find_element(By.ID, 'direct-cad-download')
-            self.driver.execute_script("arguments[0].click();", download_button)
-            if self.check_if_download_successful(): self.download_obj()
-            if self.change_account: break
-            time.sleep(10)
-
+            return True
+        else:
+            return False

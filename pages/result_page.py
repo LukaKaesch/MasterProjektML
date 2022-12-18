@@ -5,63 +5,48 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from helper import save_list_as_xml
+from models import Product
 
 
 class ResultPage:
     def __init__(self, driver):
         self.driver = driver
 
-    def select_mechanical_components(self):
-        mechanical_components_button = WebDriverWait(self.driver, 30)\
-            .until(EC.presence_of_element_located((By.ID, 'TRACEPARTS:TP01')))
-        self.driver.execute_script("arguments[0].click();", mechanical_components_button)
+    def search_by_components(self, amount_per_classification, append_new_results_check):
+        elements_classifications = self.driver.find_elements(By.XPATH, '//ul[@id="classif-list"]//a[@class="last"]')
+        links_to_classifications = self.convert_elements_to_links(elements_classifications)
+        products = []
+        for link in links_to_classifications:
+            self.driver.get(link)
+            time.sleep(3)
+            all_results = self.driver.find_element(By.ID, 'search-results-items').find_elements(By.XPATH, './*')
+            results = self.get_specific_amount_of_results(amount_per_classification, all_results)
+            products = products + self.convert_result_list_to_products(results)
+        save_list_as_xml(products, append_new_results_check)
 
-    def select_manufacturers(self, manufacturer_name):
-        time.sleep(3)
-        manufacturer_div = WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, '//ul[@id="refine'
-                                                                                                     '-list"]//li[2]/ul')))
-        # Click on manufacturer in sidebar
-        checkbox = manufacturer_div.find_element(By.XPATH,
-                                                 '//label[contains(text(),"' + manufacturer_name + '")]/preceding::input[1]')
-        self.driver.execute_script("arguments[0].click();", checkbox)
+    def get_specific_amount_of_results(self, amount, all_results):
+        try:
+            results = all_results[0:amount]
+            return results
+        except Exception:
+            return all_results[0:len(all_results) - 1]
 
-    def scroll_to_bottom(self, iteration_max):
-        driver = self.driver
-        scroll_pause_time = 1
+    def convert_result_list_to_products(self, all_results):
+        filtered_results = []
 
-        # Get scroll height
-        last_height = driver.execute_script("return document.body.scrollHeight")
+        for r in all_results:
+            print('Log: Filtering all results...')
+            link = r.find_element(By.TAG_NAME, 'a').get_attribute('href')
+            title = r.find_element(By.TAG_NAME, 'h5').text
+            img = Product(title, link)
+            if not img.is_already_saved(filtered_results):
+                filtered_results.append(img)
 
-        for i in range(0, iteration_max):
-            print('Log: Scrolling ', i, ' of ', iteration_max)
+        return filtered_results
 
-            try:
-                button = driver.find_element(By.ID, 'searchresult-more')
-                driver.execute_script("arguments[0].click();", button)
+    def convert_elements_to_links(self, elements):
+        links = []
+        for el in elements:
+            links.append(el.get_attribute('href'))
+        return links
 
-                # Scroll down to bottom
-                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-                # Wait to load page
-                time.sleep(scroll_pause_time)
-
-                # Calculate new scroll height and compare with last scroll height
-                new_height = driver.execute_script("return document.body.scrollHeight")
-                if new_height == last_height:
-                    try:
-                        button = driver.find_element(By.ID, 'searchresult-more')
-                        if not button.is_displayed(): break
-                        driver.execute_script("arguments[0].scrollIntoView();", button)
-                    except NoSuchElementException:
-                        break
-                    driver.execute_script("arguments[0].click();", button)
-                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                last_height = new_height
-            except Exception as e:
-                print('Log: Scrolling exception, ' + str(e))
-                continue
-
-    def get_possible_results(self, manufacturer_object, append_new_results_check):
-        all_results = self.driver.find_element(By.ID, 'search-results-items').find_elements(By.XPATH, './*')
-        filtered_results = manufacturer_object.filter_all_results(manufacturer_object, all_results)
-        save_list_as_xml(filtered_results, append_new_results_check)
