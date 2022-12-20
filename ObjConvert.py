@@ -88,11 +88,14 @@ def distort_coords(coords):
             dc.write(element)
 
 
-distort_coords(coordinates)
+#distort_coords(coordinates)
 
 
 distorted = Mesh("distorted coordinates.obj")
-distorted.show()
+#distorted.show()
+
+
+
 
 
 #test_object.show()
@@ -102,49 +105,3 @@ distorted.show()
 
 
 
-#OLDER
-'''
-#window = pyglet.window.Window()
-
-#visualization.draw(test_obejct)
-
-
-# function idea 1
-def decode_obj(contents, name=None):
-    """
-    Decode a Wavefront (obj) file into a float32 tensor.
-    Args:
-      contents: A 0-dimensional Tensor of type string, i.e the
-        content of the Wavefront (.obj) file.
-      name: A name for the operation (optional).
-    Returns:
-      A `Tensor` of type `float32` and shape of `[n, 3]` for vertices.
-    """
-    return core_ops.io_decode_obj(contents, name=name)
-
-
-# function idea 2
-def convert_obj(file):
-    reComp = re.compile("(?<=^)(v |vn |vt |f )(.*)(?=$)", re.MULTILINE)
-    with open(file) as f:
-        data = [txt.group() for txt in reComp.finditer(f.read())]
-
-    v_arr, vn_arr, vt_arr, f_arr = [], [], [], []
-    for line in data:
-        tokens = line.split(' ')
-        if tokens[0] == 'v':
-            v_arr.append([float(c) for c in tokens[1:]])
-        elif tokens[0] == 'vn':
-            vn_arr.append([float(c) for c in tokens[1:]])
-        elif tokens[0] == 'vt':
-            vn_arr.append([float(c) for c in tokens[1:]])
-        elif tokens[0] == 'f':
-            f_arr.append([[int(i) if len(i) else 0 for i in c.split('/')] for c in tokens[1:]])
-
-    vertices, normals = [], []
-    for face in f_arr:
-        for tp in face:
-            vertices += v_arr[tp[0] - 1]
-            normals += vn_arr[tp[2] - 1]
-    # just printing results to see if it works
-    print(vertices) '''
