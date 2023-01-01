@@ -4,6 +4,7 @@ as seen along a specified direction
 """
 #import pip
 #pip.main(['install', 'cv2'])
+from msilib.schema import Directory
 from vedo import *
 import matplotlib.pyplot as pyplot
 import cv2
@@ -83,15 +84,14 @@ def obj_to_3ViewSketch(filepath, file):
     # pyplot.title("Z-Ebene")
 
     # save three images in one sketch
-    pyplot.savefig('3view_sketches/sketch_' + str(file).rsplit(".")[0] + '.png', facecolor='white', edgecolor='none')
-
+    pyplot.savefig('3view_sketches/sketch_' + str(subdir[10:] + ' ' + file) + '.png', facecolor='white', edgecolor='none')
+    
 directory = "obj_files"
 for subdir, dirs, files in os.walk(directory):
     for file in files:
         filepath = subdir + os.sep + file
-        print(filepath)
         if filepath.endswith(".obj"):
-            obj_to_3ViewSketch(filepath, file)
-            print(filepath)
+           obj_to_3ViewSketch(filepath, file)
+           print(subdir[10:] + ' ' + file)
         else:
             continue
