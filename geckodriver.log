@@ -16396,3 +16396,408 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundEr
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 1669984563403	Marionette	INFO	Stopped listening on port 58874
 [Parent 5088, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1676214068151	geckodriver	INFO	Listening on 127.0.0.1:62063
+1676214071243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilekejitr"
+1676214071752	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676214071758	Marionette	INFO	Listening on port 62071
+Read port: 62071
+WebDriver BiDi listening on ws://127.0.0.1:62064
+1676214071960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1676214084845	geckodriver	INFO	Listening on 127.0.0.1:62078
+1676214087902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileD20jrO"
+1676214088179	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676214088182	Marionette	INFO	Listening on port 62086
+Read port: 62086
+WebDriver BiDi listening on ws://127.0.0.1:62079
+1676214088315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileD20jrO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62079/devtools/browser/10a13003-0f13-46a5-bca7-aa88b700bc70
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten?CatalogPath=TRACEPARTS%3ATP01, line 16739: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-ankerbolzen?CatalogPath=TRACEPARTS%3ATP01001013007, line 891: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-tbolzen?CatalogPath=TRACEPARTS%3ATP01001013006, line 1397: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-ubolzen?CatalogPath=TRACEPARTS%3ATP01001013005, line 922: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-sechskant-bolzen?CatalogPath=TRACEPARTS%3ATP01001013009, line 1220: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-zylindrische-kopfbolzen?CatalogPath=TRACEPARTS%3ATP01001013010, line 793: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-senkkopfbolzen?CatalogPath=TRACEPARTS%3ATP01001013012, line 828: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-rundkopfbolzen?CatalogPath=TRACEPARTS%3ATP01001013011, line 858: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/search/tracepartsklassifizierung-mechanische-komponenten-befestigungselemente-schrauben-und-bolzen-kopfschrauben-verbindungsschrauben?CatalogPath=TRACEPARTS%3ATP01001013001014, line 997: SyntaxError: expected property name, got end of script
+1676214547006	geckodriver	INFO	Listening on 127.0.0.1:62259
+1676214561095	geckodriver	INFO	Listening on 127.0.0.1:62267
+1676214564139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileghHlL3"
+1676214564397	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676214564400	Marionette	INFO	Listening on port 62275
+Read port: 62275
+WebDriver BiDi listening on ws://127.0.0.1:62268
+1676214564518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileghHlL3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62268/devtools/browser/dde8d083-a0f5-47d5-9e56-8e46bbfc0c25
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/shanghai-shangbiao-group-fasteners-coltd-cross-recessed-pan-head-tapping-screws-with-collar?CatalogPath=TRACEPARTS%3ATP01001013004003012&Product=50-24072017-068597, line 1030: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/giss-vis-agglomere-tf-pozi-acier?CatalogPath=TRACEPARTS%3ATP01001013004003012&Product=10-22032016-072858, line 1425: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/giss-vis-agglomere-tf-pozi-inox-a2?CatalogPath=TRACEPARTS%3ATP01001013004003012&Product=10-22032016-072896, line 1194: SyntaxError: expected property name, got end of script
+1676214753559	geckodriver	INFO	Listening on 127.0.0.1:62371
+1676214756617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileDZSyPc"
+1676214756862	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676214756866	Marionette	INFO	Listening on port 62379
+Read port: 62379
+WebDriver BiDi listening on ws://127.0.0.1:62372
+1676214757000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileDZSyPc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62372/devtools/browser/48b1179e-d1fa-4570-8e4b-5eca2a7d6522
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/giss-vis-agglomere-tf-pozi-inox-a2?CatalogPath=TRACEPARTS%3ATP01001013004003012&Product=10-22032016-072896, line 1194: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/shanghai-shangbiao-group-fasteners-coltd-cross-recessed-raised-countersunk-head-thread-forming-screws?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-21072017-110908, line 1030: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215185381	geckodriver	INFO	Listening on 127.0.0.1:62502
+1676215188417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile9rpDkO"
+1676215188663	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215188666	Marionette	INFO	Listening on port 62510
+WebDriver BiDi listening on ws://127.0.0.1:62503
+Read port: 62510
+1676215188877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile9rpDkO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62503/devtools/browser/74290c43-6bf6-4ea4-a22f-12977dba339a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215282018	geckodriver	INFO	Listening on 127.0.0.1:62595
+1676215285084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62596" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilemdqy5t"
+1676215285350	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215285354	Marionette	INFO	Listening on port 62603
+Read port: 62603
+WebDriver BiDi listening on ws://127.0.0.1:62596
+1676215285475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilemdqy5t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62596/devtools/browser/509c9551-ff3e-4379-8443-d6931668e1f8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215344901	geckodriver	INFO	Listening on 127.0.0.1:62696
+1676215347981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileu4GjR6"
+1676215348232	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215348237	Marionette	INFO	Listening on port 62704
+Read port: 62704
+WebDriver BiDi listening on ws://127.0.0.1:62697
+1676215348365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileu4GjR6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62697/devtools/browser/61990237-5c93-41f1-b0b4-a33811f47f97
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215385391	geckodriver	INFO	Listening on 127.0.0.1:62788
+1676215388455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8kNIWF"
+1676215388708	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215388712	Marionette	INFO	Listening on port 62797
+Read port: 62797
+WebDriver BiDi listening on ws://127.0.0.1:62789
+1676215388828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofile8kNIWF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62789/devtools/browser/ccbea825-5b2d-40a1-ba87-248f53e63574
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215664255	geckodriver	INFO	Listening on 127.0.0.1:62915
+1676215667316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileCsuFPd"
+1676215667593	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215667596	Marionette	INFO	Listening on port 62923
+Read port: 62923
+WebDriver BiDi listening on ws://127.0.0.1:62916
+1676215667714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileCsuFPd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62916/devtools/browser/4a9f76ac-0527-41fa-ba61-7982910c000f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-tapping-screws?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-12102011-113771, line 2070: SyntaxError: expected property name, got end of script
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1676215732614	geckodriver	INFO	Listening on 127.0.0.1:63019
+1676215735665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63020" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileYkHdV8"
+1676215735920	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215735925	Marionette	INFO	Listening on port 63027
+Read port: 63027
+WebDriver BiDi listening on ws://127.0.0.1:63020
+1676215736048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofileYkHdV8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63020/devtools/browser/d6679fdc-aadf-4583-a91c-65af40242e2d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215783350	Marionette	INFO	Stopped listening on port 63027
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1676215787025	geckodriver	INFO	Listening on 127.0.0.1:63113
+1676215790085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiledmlAaq"
+1676215790337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215790341	Marionette	INFO	Listening on port 63121
+Read port: 63121
+WebDriver BiDi listening on ws://127.0.0.1:63114
+1676215790459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofiledmlAaq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63114/devtools/browser/2e1afe34-0715-46db-83d8-572391271bc9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script
+1676215822361	Marionette	INFO	Stopped listening on port 63121
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1676215828260	geckodriver	INFO	Listening on 127.0.0.1:63210
+1676215831325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilekf8iSj"
+1676215831582	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676215831585	Marionette	INFO	Listening on port 63218
+Read port: 63218
+WebDriver BiDi listening on ws://127.0.0.1:63211
+1676215831717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ERNSTD~1\\AppData\\Local\\Temp\\rust_mozprofilekf8iSj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63211/devtools/browser/262c916f-46e5-4ce0-b318-8fdcde8ce448
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.traceparts.com."
+JavaScript error: https://www.traceparts.com/de, line 631: SyntaxError: expected property name, got end of script
+JavaScript error: https://www.traceparts.com/de/product/gb-cross-recessed-raised-countersunk-head-drilling-screws-with-tapping-screw-thread?CatalogPath=TRACEPARTS%3ATP01001013004003007&Product=50-28102011-080984, line 1562: SyntaxError: expected property name, got end of script

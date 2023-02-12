@@ -13,8 +13,8 @@ from helper import create_folder
 # Globals
 EMAILS = ['sdfesfdsf@txen.de']
 PW = 'Ab123456'
-CREATE_NEW_SEARCH_RESULT_LIST = False
-APPEND_NEW_SEARCH_RESULTS_TO_EXISTING_XML = False
+CREATE_NEW_SEARCH_RESULT_LIST = True
+APPEND_NEW_SEARCH_RESULTS_TO_EXISTING_XML = True
 AMOUNT_PER_CATEGORY = 3
 
 
@@ -39,8 +39,7 @@ def change_account(driver_old, email_counter):
         email = EMAILS[email_counter]
     except Exception:
         print('Log: No accounts available anymore')
-        os.system('shutdown /s /t 1')
-        # quit()
+        quit()
     driver_old.close()
     time.sleep(60)
     driver_new = init_config()

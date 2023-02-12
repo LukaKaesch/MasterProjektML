@@ -16,7 +16,7 @@ EMAIL_ITERATOR = 0
 def create_folder(dir_path, title):
     try:
         path_search_term = os.path.join(dir_path, title)
-        os.mkdir(path_search_term)
+        os.makedirs(path_search_term)
         return True
     except Exception:
         print('Log: Folder "' + str(dir_path) + title + '" already exists.')
@@ -136,4 +136,5 @@ def remove_forbidden_chars(string):
     string = string.replace('>', '_')
     string = string.replace('|', '_')
     string = string.replace('.', '_')
+    string = string.replace(' ', '_')
     return string
